@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just JS Things</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+p{
+    color: blue;
+    size: 20px;
+    font-style: italic;
+}
+</style>
+
+<body>
+    <p id ="hey">hey how's it going </p>
+    <ol id="animol">
+        <li class="animals">
+            cats
+        </li>
+        <li class="animals">
+            dogs
+        </li>
+    </ol>
+    <script>
+        function myfunc(){
+            var x=document.getElementById('hey');
+            x.style.color="red";
+            x.style.fontSize="24px";
+
+        }
+    </script>
+    
+    <button onclick="myfunc()"type="button" class="btn btn-dark">Dark</button>    
+</body>
+</html>
